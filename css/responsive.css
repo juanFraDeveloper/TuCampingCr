@@ -1,0 +1,269 @@
+/*===================================
+Responsive code
+===================================*/
+@media screen and (min-width: 1700px){
+	#left{left: 670px;}
+	#right{right: 670px;}
+}
+@media screen and (min-width: 1500px){
+	#left{left: 370px;}
+	#right{right: 370px;}
+}
+@media screen and (max-width: 1290px){
+	#left{left: 200px;}
+	#right{right: 200px;}
+}
+@media screen and (max-width: 1240px){
+	#posi-nav nav{width: 100%;}
+}
+@media screen and (max-width: 1210px){
+	#cont-info-header .btn-left{left: -10px;}
+	#cont-info-header .btn-right{right: -10px;}
+}
+@media screen and (max-width: 1180px){
+	#block4{width: 100%;height: 100%;}
+	#block5{
+		width: 100%;
+		margin-top: 30px;
+	}
+	#block5 .card-offer{margin-top: 50px;}
+	#cont-footer2{
+		width: 80%;
+		margin: auto;
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 1100px){
+	#icon{left: 25px;}
+	#cont-info-header .btn-left{left: 30px;}
+	#cont-info-header .btn-right{right: 30px;}
+	#cont1-header span{font-size: 53px;}
+	#block1{width: 100%;}
+	#left{left: 130px;}
+	#right{right: 130px;}
+	#block4 .service{margin-top: 50px;}
+	#cont-general-cont{width: 100%;}
+	#cont-footer{width: 100%;}
+	.cont-contacto-img{width: 40%;}
+	.cont-contacto-img img{width: 100%;}
+	.cont-contact{width: 40%;}
+}
+@media screen and (max-width: 1250px){
+	#cont-info-header .btn-left{left: 50px;}
+	#cont-info-header .btn-right{right: 50px;}
+}
+@media screen and (max-width: 1000px){
+	#cont-info-header{
+		width: 80%;
+	}
+	#cont-slider-header{width: 100%;}
+	#cont-info-header span{
+		font-size: 48px;
+		padding-top: 0%;
+	}
+	#cont-info-header .btn-left{left: -10px;}
+	#cont-info-header .btn-right{right: -10px;}
+	#cont1-header p{font-size: 16px;}
+	.cont1-block1{
+		width: 40%;
+		padding: 0 5%;
+		padding-top: 5%;
+	}
+}
+@media screen and (max-width: 980px){
+	/*=====cambio de menu =====*/
+	#posi-nav nav{height: 50px;}
+	#icon{
+		width: 100px;
+		height: 35px;
+		top: 7px;
+	}
+	#nav1{display: none;}
+	#nav2{display: block;}
+}
+@media screen and (max-width: 920px){
+	#cont-info-header span{font-size: 44px;}
+	#cont-info-header .btn-header{
+		transform: scale(2);
+		top: 44px;
+	}
+	#cont-info-header .btn-left{left: -40px;}
+	#cont-info-header .btn-right{right: -40px;}
+	.cont1-block1{padding-top: 10%}
+	#left{left: 100px;}
+	#right{right: 100px;}
+	#cont1-header p{font-size: 15px;}
+	.cont-contacto-img{padding-top: 20px;}
+}
+@media screen and (max-width: 860px){
+	#cont1-header span{font-size: 40px;}
+	#cont1-header p{font-size: 14px;}
+	#block4 .service{pointer-events: none;}
+	#card-active{background-color: #fff;}
+	#card-active p{color: #686766;}
+	#card-active i{color: #D3AC5F;}
+}
+@media screen and (max-width: 830px){
+	.cont1-block1{padding-top: 12%;}
+	#cont-info-header span{font-size: 37px;}
+	#cont1-header p{
+		font-size: 14px;
+		width: 90%;
+		margin: auto;
+	}
+	#left{left: 50px;}
+	#right{right: 50px;}
+	.cont-contacto-img{padding-top: 55px;}
+
+	#block5 .card-offer .btn-block5 a:hover{
+		background-color: #846A36;
+		color: #fff;
+		text-decoration: none;
+		font-weight: initial;
+	}
+	#boton:hover{
+		background-color: #D3AC5F;
+		border: 1px solid #D3AC5F;
+		color: #fff;
+	}
+	#nav-icon i:hover{color: #fff;}
+}
+@media screen and (max-width: 750px){
+	.cont-card{width: 70%;}
+	.rounded{transform: scale(3);}
+	.rounded{background-color: rgba(255,255,255,0);}
+}
+@media screen and (max-width: 710px){
+	#cont-info-header span{font-size: 33px;}
+	#cont-info-header .btn-header{top:36px;}
+	#cont1-header p{width: 80%;}
+	#block5 .card-offer{margin-left: 0;}
+}
+@media screen and (max-width: 700px){
+	#cont-info-header .btn-left{left: -20px;}
+	#cont-info-header .btn-right{right: -20px;}
+	#block1{flex-direction: column-reverse;}
+	#block2{padding: 8% 0;}
+	.cont1-block1{
+		width: 90%;
+		padding: 0 5%;
+		margin-top: 20px;
+	}
+	#block1 #cont1-b1{
+		width: 90%;
+		padding: 0 5%;
+	}
+	#block4{
+		width: 70%;
+		padding: 0 15%;
+	}
+	#block4 .service{
+		width: 100%;
+		padding: 4%;
+	}
+	#block4 .service .icon3{width: 53px;}
+	#block4 .service .icon3-2{width: 68px;}
+	#block4 .service .icon3-3{width: 76px;}
+	#block5{
+		width: 80%;
+		margin-top: 0px;
+		padding: 0 10%;
+	}
+	#block5 .card-offer{
+		width: 100%;
+	}
+	#block5 .card-offer .btn-block5{
+		width: 85px;
+		height: 32px;
+	}
+	#block5 .card-offer .btn-block5 a{
+		height: 29px;
+		padding-top: 3px;
+}
+	#contact{padding: 5% 0;}
+	.cont-contacto-img{display: none;}
+	.cont-contact{width: 70%;}
+	footer{padding: 5% 0;}
+	#cont-footer span{font-size: 40px;}
+	#cont-footer .topPara{margin-top: 10px;}
+}
+@media screen and (max-width: 645px){
+	#cont-info-header span{font-size: 28px;}
+	#left{left: 30px;}
+	#right{right: 30px;}
+}
+@media screen and (max-width: 620px){
+	#cont1-header p{font-size: 13px;}
+}
+@media screen and (max-width: 548px){
+	#cont-info-header .btn-header{top: 54px;}
+	#cont-info-header .btn-left{left: -10px;}
+	#cont-info-header .btn-right{right: -10px;}
+	#cont-info-header span{
+		font-size: 24px;
+		padding-top: 8%;
+	}
+}
+@media screen and (max-width: 500px){
+	body{font-size: 16px;}
+	#nav2{
+		width: 25px;
+		height: 24px;
+		top: 10px;
+		padding-top: 4px;
+		padding-left: 11px;
+	}
+	#nav2 i{
+		transform: scale(1.1);
+	}
+	#cont-info-header span{font-size: 30px;}
+	#cont-info-header .btn-header{top: 74px;}
+	.cont-allTitu{width: 275px;}
+	.cont-allTitu .line{width: 35px;}
+	.cont-allTitu .li1{top: 26px;}
+	.cont-allTitu .li2{top: 26px;}
+	.rounded{display: none;}
+	.cont-botones2{display: block;}
+	.cont-card{padding-bottom: 20px;}
+	.titu2-w{width: 209px;}
+	.titu3-w{width: 226px;}
+	.titu4-w{width: 249px;}
+	#block5Cont{margin-top: 40px;}
+	#contact{margin-top: 22px;}
+	#cont-general-cont{margin-top: 10px;}
+	.cont-contact{padding-top: 0;}
+	#boton{width: 80px;}
+	footer p{font-size: 13px;}
+	#nav-icon i{transform: scale(1.5);}
+}
+@media screen and (max-width: 410px){
+	#cont-info-header span{font-size: 28px;}
+	#cont-info-header .btn-header{top: 67px;}
+	#cont-info-header .btn-header{transform: scale(1.4);}
+	#icon2 i{transform: scale(1.3);}
+	#cont-info-header .btn-left{left: -5px;}
+	#cont-info-header .btn-right{right: -5px;}
+}
+@media screen and (max-width: 370px){
+	body{font-size: 14px;}
+	main h1{font-size: 26px;}
+	.cont-card .card img{height: 120px;}
+	.titu-offer h4{
+		width: 80%;
+		height: 30px;
+		padding-top: 5px;
+		font-size: 16px;
+	}
+	#block4 .service .icon3{width: 48px;}
+	#block4 .service .icon3-2{width: 63px;}
+	#block4 .service .icon3-3{width: 69px;}
+	#cont-footer span{font-size: 30px;}
+}
+
+@media screen and (max-width: 300px){
+	#cont-info-header span{font-size: 27px;}
+	.cont-card .card img{height: 100px;}
+}
+@media screen and (max-width: 272px){
+
+}
